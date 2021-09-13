@@ -1,0 +1,8 @@
+CREATE TABLE IF NOT EXISTS 'LIVRE' (
+  'IDLIVRE' VARCHAR2(20) NOT NULL,         
+  'TITRE' varchar2(60)   NULL,     
+  'NOM_AUTEUR' varchar2(60)  NULL,       
+  'ANNEE_EDITION' DATE NULL,    
+  'MAISON_EDITION'  varchar2(60) NULL,
+   PRIMARY KEY  ('IDLIVRE')
+);
